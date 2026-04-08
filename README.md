@@ -1,26 +1,64 @@
-• Arduino Sensors Project
+- • Arduino Sensors Project 🚀
 
 •• 📌 Overview
-This project includes multiple Arduino-based sensor systems used to monitor environmental conditions and trigger alerts.
+This repository contains multiple Arduino-based projects using different sensors to monitor environmental conditions and trigger alerts.
+
+---
 
 •• 🧰 Projects Included
 
+••• 🌡️ DHT11 Sensor
+- Measures humidity
+- Displays data on Serial Monitor
+
+---
+
 ••• 🌡️ DHT11 Temperature and Humidity Sensor
 - Measures temperature and humidity
-- Outputs data via Serial Monitor
+- Outputs results in °C and %
+
+---
 
 ••• 🔥 Smart Gas Detection and Alert System
-- Detects gas using MQ-2 sensor
-- Activates buzzer when gas exceeds threshold
+- Uses MQ-2 gas sensor
+- Activates buzzer when gas level exceeds threshold
+
+---
 
 ••• 💧 Water Level Sensing System
 - Detects water level
-- Can be used for tank monitoring
+- Displays values on Serial Monitor
+
+---
+
+••• 🔐 RFID RC522 Project
+- Reads RFID cards using RC522 module
+- Displays UID on Serial Monitor
+- Can be used for access control systems
+
+---
 
 •• ⚙️ Technologies Used
 - Arduino Uno
-- C / Arduino Language
-- Sensors (DHT11, MQ-2, Water Level)
+- Arduino C / C++
+- Sensors (DHT11, MQ-2, Water Level, RFID RC522)
+
+---
+
+•• 🎯 Objectives
+- Learn how to interface sensors with Arduino
+- Build real-world embedded systems
+- Practice data acquisition and alert systems
+
+---
+
+•• 📷 Example Projects
+
+••• RFID System
+![RFID](RFID_RC522_Project/rfid_schema.png)
+
+••• Gas Detection
+![Gas](Smart_Gas_Detection_and_Alert_System/gas_project.jpg)
 
 • 🚀 Author
 - Ibrahim Ait Massoud.
